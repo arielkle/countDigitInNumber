@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const frame = document.createElement('div');
         frame.id = frameId;
         frame.className = 'call-stack-frame shadow-md';
-        frame.style.marginRight = `${depth * 25}px`;
+        frame.style.marginRight = `${depth * 25}px`; // Add indentation for hierarchy
         
         const borderColors = ['border-sky-500', 'border-emerald-500', 'border-amber-500', 'border-purple-500', 'border-rose-500'];
         const bgColors = ['bg-sky-50', 'bg-emerald-50', 'bg-amber-50', 'bg-purple-50', 'bg-rose-50'];
@@ -99,8 +99,4 @@ document.addEventListener('DOMContentLoaded', function() {
             return recursiveResult;
         }
     }
-});
-
-
-
 
