@@ -1,0 +1,13 @@
+body {
+    font-family: 'Assistant', sans-serif;
+}
+
+.call-stack-frame {
+    border-left: 4px solid; /* Changed from border-right for RTL */
+    padding: 10px;
+    padding-right: 15px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+}
+
