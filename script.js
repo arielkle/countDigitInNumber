@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+addEventListener('DOMContentLoaded', function() {
 
     const numberInput = document.getElementById('numberInput');
     const digitInput = document.getElementById('digitInput');
@@ -99,5 +99,4 @@ document.addEventListener('DOMContentLoaded', function() {
             return recursiveResult;
         }
     }
-
 });
